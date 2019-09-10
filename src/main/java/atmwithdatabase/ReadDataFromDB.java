@@ -5,11 +5,7 @@ import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DataSource {
-    /**
-     * Reads the customer numbers and pins
-     * and initializes the bank accounts.
-     */
+public class ReadDataFromDB implements ReadDataSource {
     public Map<Integer, Customer> readCustomers() throws IOException {
         Map<Integer, Customer> customers = new HashMap<Integer, Customer>();
         try {

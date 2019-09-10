@@ -5,14 +5,15 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ATMWithDBJavaConfig {
-    @Bean
-    public DataSource dataSource(){
-        return new DataSource();
-    }
 
     @Bean
+    public ReadDataFromText readDataFromText() { return new ReadDataFromText("customers.txt"); }
+
+    @Bean
+    public ReadDataFromDB readDataFromDB() { return new ReadDataFromDB(); }
+    @Bean
     public Bank bank(){
-        return new Bank(dataSource());
+        return new Bank(readDataFromDB());
     }
 
     @Bean
