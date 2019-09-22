@@ -1,143 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5085fbd-1496-4c7c-91bc-e01b060ec1a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataSource.java" afterDir="false" />
+    <list default="true" id="a7a2c227-a3c0-4a7e-a6dd-7ab695ca4d72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/ATMSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/CustomerDaoImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmwithjdbc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/configJDBC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmwithdatabase/ATMWithDBJavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmwithdatabase/ATMWithDBJavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmwithdatabase/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmwithdatabase/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atmannotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmannotation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atmjavaconfig/ATMConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmjavaconfig/ATMConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atmjavaconfig/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmjavaconfig/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/ATMSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/ATMSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/ATMSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/ATMSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmannotation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmannotation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/ATMConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/ATMConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/ATMSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/ATMSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atmjavaconfig/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atmjavaconfig/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config-annotation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.xml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1532191146">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="37" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="410" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="XML" value="13" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/DataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromText.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#497#516#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/DataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ATMWithDBJavaConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,34 +61,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/atmjavaconfig/ATMConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmjavaconfig/Main.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/test" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/DataSourceWithDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmannotation/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/config-db.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/atmjavaconfig/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromText.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/Bank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atmwithdatabase/ATMWithDBJavaConfig.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -185,91 +68,30 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="1R8mhDkyPPgnDP8sMxZdUNk9y8F" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atmjavaconfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atmwithdatabase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atm-di" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/atmwithjdbc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\year3s1\SE\atm-di\src\main\java\atmwithdatabase" />
-      <recent name="E:\year3s1\SE\atm-di\src\main\java\atmjavaconfig" />
+      <recent name="E:\year3s1\SE\atm-di\src\main\java\atmwithjdbc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,13 +106,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atmjavaconfig.Main" />
+      <option name="MAIN_CLASS_NAME" value="atm.Main" />
       <module name="atm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atmjavaconfig.*" />
+          <option name="PATTERN" value="atm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,6 +121,19 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atmannotation.Main" />
+      <module name="atm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atmannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="atmwithdatabase.Main" />
       <module name="atm" />
       <extension name="coverage">
@@ -312,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atmannotation.Main" />
+      <option name="MAIN_CLASS_NAME" value="atmwithjdbc.Main" />
       <module name="atm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atmannotation.*" />
+          <option name="PATTERN" value="atmwithjdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,13 +159,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -342,245 +173,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5085fbd-1496-4c7c-91bc-e01b060ec1a0" name="Default Changelist" comment="" />
-      <created>1568034104671</created>
+      <changelist id="a7a2c227-a3c0-4a7e-a6dd-7ab695ca4d72" name="Default Changelist" comment="" />
+      <created>1569057214217</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568034104671</updated>
-      <workItem from="1568034106259" duration="4131000" />
-      <workItem from="1568120213972" duration="559000" />
+      <updated>1569057214217</updated>
+      <workItem from="1569057217020" duration="1829000" />
+      <workItem from="1569157886086" duration="1761000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4690000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25263953" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30733946" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32874617" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmannotation/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/Bank.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/Account.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/ATMSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ATM.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/ATM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/Customer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/Account.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ATMSimulator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/test" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmannotation/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/DataSourceWithDB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/config-db.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/ATMConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmjavaconfig/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ReadDataFromText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#497#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/ATMWithDBJavaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atmwithdatabase/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

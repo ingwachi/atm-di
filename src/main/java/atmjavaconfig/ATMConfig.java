@@ -7,9 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class ATMConfig {
 
     @Bean
-    public DataSource dataSource(){
-        return new DataSource("customers.txt");
-    }
+    public DataSource dataSource(){ return new DataSource("customers.txt"); }
 
     @Bean
     public  Bank bank(){
@@ -17,13 +15,9 @@ public class ATMConfig {
     }
 
     @Bean
-    public  ATM atm(){
-        return new ATM(bank());
+    public  ATM atm(){ return new ATM(bank());
     }
 
-    @Bean ATMSimulator atmSimulator() {
-        return new ATMSimulator(atm());
-    }
-
+    @Bean ATMSimulator atmSimulator() { return new ATMSimulator(atm()); }
 
 }
